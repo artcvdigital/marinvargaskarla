@@ -193,6 +193,10 @@
 		};
 	};
 
+	window.oncontextmenu = ()=>{
+		return false;
+	};
+
 // events
 	timer(load, 600);
 	enableports();
